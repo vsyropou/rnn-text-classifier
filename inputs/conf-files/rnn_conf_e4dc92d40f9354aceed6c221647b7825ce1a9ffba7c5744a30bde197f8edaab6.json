@@ -1,0 +1,43 @@
+{
+    "confId": "e4dc92d40f9354aceed6c221647b7825ce1a9ffba7c5744a30bde197f8edaab6",
+
+    "inputSequences": "./inputs/data/indexed-clean-tokenized-sentences.npy",
+    "cleanSentences": "./inputs/data/clean-tokenized-sentences.npy",
+    "inputLabels": "./inputs/data/indexed-clean-tokenized-sentences-labels.npy",
+    "embeddingsMatrix": "./inputs/data/embeddings-glove-6B300d.npy",
+    "vocabularySize": 1726,
+    "reduceWithPCA": false,
+
+    "sequenceLength": 5,
+    "embeddingLength": 50,
+    "batchSize": 25,
+    "learningRate": 0.001,
+    "numEpochs": 15,
+    "trainingExamplesFrac": 0.7,
+
+    "numpySeed": 22,
+    "numberOfLabels": 6,
+    "trainEmbeddings": true,
+    
+    "rnnCellProxy": "tf.contrib.rnn.BasicLSTMCell",
+    "rnnCellConf": {},
+    "regularizationMethodProxy": "tf.contrib.rnn.DropoutWrapper",
+    "regularizationMethodConf": {
+        "output_keep_prob": 0.75
+    },
+    "rnnBuilderProxy": "tf.nn.dynamic_rnn",
+    "rnnBuilderConf": {
+        "dtype": "tf.float32"
+    },
+    "outputLayerProxy": "tf.layers.dense",
+    "outputLayerConf": {},
+    "lossFunctionProxy": "tf.nn.sparse_softmax_cross_entropy_with_logits",
+    "lossFunctionConf": {},
+    "minimizerProxy": "tf.train.AdamOptimizer",
+    "minimizerConf": {
+        "learning_rate": 0.001
+    },
+    "minimizeMethodConf": {},
+    "sessionConf": {}
+
+}
