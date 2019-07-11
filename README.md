@@ -5,6 +5,7 @@ In order to run the classifier:
 ``python
 python -i rnn_text_classifier.py inputs/conf-files/rnn_conf_<big_unique_hash>.json
 ``
+
 The configuration files are made with the **make-rnn-conf.py** script, wher eyou can tune the network architecture, hyper parameters and inputs.
 
 Furthermore, custom metrics on word clsuter seperation distances are included, **sentence_statistics.py**, as well as a multicategory f1-score metric (one-vs-all style), see **base_classiefiers.py**. 
