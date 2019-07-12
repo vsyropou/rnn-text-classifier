@@ -1,4 +1,11 @@
-This is my first nlp releated recurent neural network project in tensorflow. It is a text classifier of small sentences, very similar to a sentiement analysis. The code is not production ready, but more like a portfolio item. The network is built with utilizing low level tensorflow api classes which are subsequently wrapped around python objects. The preprocesing of the sentences is done in advance, see inputs/data for examples on data schemas.
+This is my first nlp releated recurent neural network project in tensorflow. It is a text classifier of small sentences, very similar to a sentiement analysis. The code is not production ready, but more like a portfolio item. For details on the motivation behind the project check:
+
+``
+doc/popular.pdf
+``
+
+
+The network is built with classes from the low level tensorflow classes which are subsequently wrapped around python objects. The preprocesing of the sentences has taken place in advance, see inputs/data for examples on data schemas.
 
 In order to run the classifier:
 
