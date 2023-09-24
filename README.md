@@ -18,3 +18,5 @@ The configuration files are made with the **make-rnn-conf.py** script, where you
 Furthermore, custom metrics on word clsuter seperation distances are included, **sentence_statistics.py**, as well as a multicategory f1-score metric (one-vs-all style), see **base_classiefiers.py**. 
 
 Finally, I experimented a bit with running tensorflow on spark, which gave me an idea on how to **not** build spark applications :-P
+
+![popular.pdf](https://github.com/vsyropou/rnn-text-classifier/files/12709713/popular.pdf)
