@@ -1,6 +1,6 @@
 A classifier of small sentences according to their topic in order to build a taxonomy system of learning material outcomes. The classifier can then be used to better match content to learners. The content classification system is called Bloom's Taxonomy, a famous system in the eLearning domain. 
  
-## What I learned
+## What I Learned
 Apart from building my first nlp pipeline in one week my most satisfing moment was as I exaplain in the post above when I summed the word embedings of the words in a given question. I wanted to see if the cosine distnace of these similar questions was small. I also wanted to know how the reduced embedings space, say if you you pca, will look like if you plot all the questions. Will similar questiosn cluster. What do you think happened..??
 
 ## How to run
@@ -28,7 +28,7 @@ two species.“ would fall under the “understand“ category according to Bloo
 build an integrated circuit amplifier”, would probably be associated with either “applying“ or “creating“ or both. For more details on Bloom’s
 taxonomy, you are encouraged to refer to specialized articles, such as [1](https://www.niallmcnulty.com/2017/11/blooms-digital-taxonomy/).
 
-![images](https://github.com/vsyropou/rnn-text-classifier/assets/7230298/a4741662-95ea-4d03-bfe7-ccc3511ca556)
+![1 uD2TVZJ39uuB1z1-aLBPIw](https://github.com/vsyropou/rnn-text-classifier/assets/7230298/b82763dd-7706-4d05-b9f1-5046cf8c1dcb)
 
 image from [1](https://www.niallmcnulty.com/2017/11/blooms-digital-taxonomy/)
 
