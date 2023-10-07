@@ -30,7 +30,7 @@ taxonomy, you are encouraged to refer to specialized articles, such as [1](https
 
 ![1 uD2TVZJ39uuB1z1-aLBPIw](https://github.com/vsyropou/rnn-text-classifier/assets/7230298/b82763dd-7706-4d05-b9f1-5046cf8c1dcb)
 
-image from [1](https://www.niallmcnulty.com/2017/11/blooms-digital-taxonomy/)
+image from [1](https://medium.com/@mattvesty/using-blooms-taxonomy-to-measure-your-lessons-critical-thinking-and-material-design-8c45b6b8b373)
 
 
 ## Learning object taxonomy in e-learning
